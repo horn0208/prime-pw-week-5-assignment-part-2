@@ -3,17 +3,23 @@
 That is a good thing to add to every CSS file, and it should use the `body` HTML tag name. */
 
 body {
-    background-image: url('record.png');
-    background-repeat: repeat;
     margin: 0;
 }
 
-header {
+.body-wrap {
+    background-image: url('record.png');
+    background-repeat: repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.header-wrap {
     background-color:darkslategray;
     color:lightskyblue;
     text-align: center;
 }
-main {
+.main-wrap {
     background-color: lightgrey;
     padding: 1em;
 }
